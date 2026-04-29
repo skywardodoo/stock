@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Stock Picking State",
-    "version": "19.0.1.1.0",
+    "version": "19.0.1.2.0",
     "category": "Warehouse Management",
     "sequence": 14,
     "summary": "",
@@ -29,6 +29,7 @@
     "images": [],
     "depends": [
         "stock",
+        "stock_picking_invoice_link",
     ],
     "data": [
         "security/ir.model.access.csv",
