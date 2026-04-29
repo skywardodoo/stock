@@ -14,9 +14,9 @@
             <!--field name="book_id" position="attributes">
                 <attribute name="readonly" separator=" or " add="batch_id"/>
             </field-->
-            <field name="voucher_ids" position="attributes">
+            <!--field name="voucher_ids" position="attributes">
                 <attribute name="readonly" separator=" or " add="batch_id"/>
-            </field>
+            </field-->
         </field>
     </record>
 
