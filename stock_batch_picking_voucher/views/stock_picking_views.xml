@@ -11,9 +11,9 @@
                     <strong>Advertencia:</strong> La asignación de remitos se hace desde el lote de traslados, si quiere hacerlos desde este traslado cancele el lote o separe el traslado del mismo
                 </div>
             </sheet>
-            <field name="book_id" position="attributes">
+            <!--field name="book_id" position="attributes">
                 <attribute name="readonly" separator=" or " add="batch_id"/>
-            </field>
+            </field-->
             <field name="voucher_ids" position="attributes">
                 <attribute name="readonly" separator=" or " add="batch_id"/>
             </field>
