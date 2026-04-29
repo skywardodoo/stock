@@ -18,24 +18,20 @@
 #
 ##############################################################################
 {
-    "name": "Stock Picking Labels",
-    "version": "16.0.1.0.0",
+    "name": "Stock Picking Labels (v19 bridge)",
+    "summary": "Compat bridge for legacy stock_picking_labels",
+    "version": "19.0.1.0.0",
     "category": "Warehouse Management",
     "sequence": 14,
-    "summary": "",
-    "author": "ADHOC SA",
-    "website": "www.adhoc.com.ar",
-    "license": "AGPL-3",
-    "images": [],
+    "author": "Megu migration",
+    "license": "LGPL-3",
     "depends": [
         "stock",
         "report_aeroo",
     ],
-    "data": [
-        "report/stock_report_data.xml",
-    ],
+    "data": [],
     "demo": [],
-    "installable": False,
+    "installable": True,
     "auto_install": False,
     "application": False,
 }
